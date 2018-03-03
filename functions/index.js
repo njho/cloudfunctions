@@ -4,7 +4,9 @@ const functions = require('firebase-functions');
 
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
-var {buildSchema} = require('graphql');
+const {buildSchema} = require('graphql');
+const bodyParser = require('body-parser');
+
 const app = express();
 
 
@@ -33,17 +35,23 @@ var generateToken = (session_id) => {
     })
 };
 
-const schema = buildSchema(`
-    type PublisherInfo {
-        token: String
-        session_id: String
-    }
+const schema = buildSchema(
+    `
+        type PublisherInfo {
+            token: String
+            session_id: String
+        }
+        
+        type coordinate {
+            latitude: Float!
+            longitude: Float!
+            }
 
-  type Query {
-    requestToken(session_id: String!, user_id: String!,journey_id: String!, name: String! ): String
-    createSession(journey_id: String!, journey_name: String!, user_id: String!, user_name: String!, journey_description: String!): PublisherInfo
-  }
-`);
+      type Query {
+        requestToken(session_id: String!, user_id: String!,journey_id: String!, name: String! ): String
+        createSession(journey_id: String!, journey_name: String!, user_id: String!, user_name: String!, journey_description: String!): PublisherInfo
+      } 
+      `);
 
 
 const root = {
@@ -118,26 +126,51 @@ const root = {
             )
         }
         return fetchStuff();
-
-
     }
 
 
 };
 
 
-app.use(function (req, res, next) {
-    console.log(req.body) // populated!
-    next()
-})
+//Taken from KittyKendoHN -> Investigate more
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 
-app.use('/', graphqlHTTP({
+// app.use(function (req, res, next) {
+//     console.log(req.body) // populated!
+//     next()
+// })
+
+app.use('/graphql', graphqlHTTP({
     schema: schema,
     rootValue: root,
     graphiql: true,
 }));
 
-exports.graphql = functions.https.onRequest(app)
+
+app.post('/locationUpdate', function (req, res) {
+    console.log('locationUpdate triggered');
+    let eventData = req.body.location
+    console.log(eventData);
+
+    admin.database().ref('/live_journeys/' + req.body.location.extras.journey_id).push({
+        coordinates: {
+            latitude: eventData.coords.latitude,
+            longitude: eventData.coords.longitude
+        },
+        altitude: eventData.coords.altitude,
+        timestamp: eventData.timestamp,
+        imageUrl: 'no'
+    }).then(snapshot => {
+        res.status(200).send('this is okay');
+    }, function (error) {
+        res.status(500).send('this is not okay');
+    });
+
+});
+
+
+exports.graphql = functions.https.onRequest(app);
 
 
 // // Generate an OpenTok Token based on a session_id
