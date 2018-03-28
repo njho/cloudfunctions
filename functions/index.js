@@ -1,5 +1,11 @@
 const functions = require('firebase-functions');
 
+//These are required for ImageMagick Manipulation
+const generateThumbnail = require('./functions/generateThumbnail');
+const path = require('path');
+const os = require('os');
+const fs = require('fs');
+
 // import setupGraphQLServer from "./graphql/server"
 
 const express = require('express');
@@ -149,20 +155,25 @@ app.use('/graphql', graphqlHTTP({
 
 
 app.post('/locationUpdate', function (req, res) {
-    console.log('locationUpdate triggered');
-    let eventData = req.body.location
+
+    console.log('A Location Update has been triggered');
+    let eventData = req.body.location;
     console.log(eventData);
 
-    admin.database().ref('/live_journeys/' + req.body.location.extras.journey_id).push({
-        coordinates: {
-            latitude: eventData.coords.latitude,
-            longitude: eventData.coords.longitude
-        },
-        altitude: eventData.coords.altitude,
-        timestamp: eventData.timestamp,
-        imageUrl: 'no'
+    let timestamp = -Date.parse(eventData.timestamp);
+    console.log("Negative timestamp for Firebase lookup: " + timestamp);
+
+    admin.database().ref('/live_journeys/' + req.body.location.extras.journey_id).set({
+        [req.body.location.extras.journey_id]: {
+            coordinates: {
+                latitude: eventData.coords.latitude,
+                longitude: eventData.coords.longitude
+            },
+            altitude: eventData.coords.altitude,
+            timestamp: timestamp,
+        }
     }).then(snapshot => {
-        res.status(200).send('this is okay');
+        res.status(200).json(eventData.uuid)
     }, function (error) {
         res.status(500).send('this is not okay');
     });
@@ -171,6 +182,19 @@ app.post('/locationUpdate', function (req, res) {
 
 
 exports.graphql = functions.https.onRequest(app);
+
+//===================================START_GENERATE_THUMBNAIL======================================>
+
+// [START generateThumbnail]
+/**
+ * When an image is uploaded in the Storage bucket We generate a thumbnail automatically using
+ * ImageMagick.
+ */
+// [START generateThumbnailTrigger]
+exports.generateThumbnail = functions.storage.object().onChange(generateThumbnail.handler);
+// [END generateThumbnail]
+
+//===================================END_GENERATE_THUMBNAIL======================================>
 
 
 // // Generate an OpenTok Token based on a session_id
