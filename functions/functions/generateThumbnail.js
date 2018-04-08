@@ -3,6 +3,7 @@ const spawn = require('child-process-promise').spawn;
 const path = require('path');
 const os = require('os');
 const fs = require('fs');
+const admin = require('firebase-admin');
 
 
 exports.handler = (event) => {
@@ -10,6 +11,11 @@ exports.handler = (event) => {
     // [START eventAttributes]
     const object = event.data; // The Storage object.
     console.log(object);
+    const journey_id = object.name.substring(0, object.name.indexOf('/'));
+    const photo_uid = object.name.substring(object.name.indexOf('/')+1, object.name.length-4);
+    console.log(journey_id);
+    console.log(photo_uid);
+
 
     const fileBucket = object.bucket; // The Storage bucket that contains the file.
     const filePath = object.name; // File path in the bucket.
@@ -75,25 +81,32 @@ exports.handler = (event) => {
             metadata: metadata,
         });
         // Once the thumbnail has been uploaded delete the local file to free up disk space.
-    }).then(() => {
-        console.log('Generating a thumbnail');
-        // Generate a thumbnail using ImageMagick.
-        return spawn('convert', [tempFilePath, '-thumbnail', '200x200', tempFilePath]);
-    }).then(() => {
-        console.log('Thumbnail created at', tempFilePath);
-        // We add a 'thumb_' prefix to thumbnails file name. That's where we'll upload the thumbnail.
-        const thumbFileName = `thumb_${fileName}`;
-        const thumbFilePath = path.join(path.dirname(filePath), thumbFileName);
-        // Uploading the thumbnail.
-        return bucket.upload(tempFilePath, {
-            destination: thumbFilePath,
-            metadata: metadata,
-        });
-        // Once the thumbnail has been uploaded delete the local file to free up disk space.
-    }).then(()=> {
+    })
+    //     .then(() => {
+    //     console.log('Generating a thumbnail');
+    //     // Generate a thumbnail using ImageMagick.
+    //     return spawn('convert', [tempFilePath, '-thumbnail', '200x200', tempFilePath]);
+    // }).then(() => {
+    //     console.log('Thumbnail created at', tempFilePath);
+    //     // We add a 'thumb_' prefix to thumbnails file name. That's where we'll upload the thumbnail.
+    //     const thumbFileName = `thumb_${fileName}`;
+    //     const thumbFilePath = path.join(path.dirname(filePath), thumbFileName);
+    //     // Uploading the thumbnail.
+    //     return bucket.upload(tempFilePath, {
+    //         destination: thumbFilePath,
+    //         metadata: metadata,
+    //     });
+    //     // Once the thumbnail has been uploaded delete the local file to free up disk space.
+    // })
+
+        .then(()=> {
         console.log('All Image Transformations Successful, delete the existing');
         return bucket.file(filePath).delete()
-    }).then(() => {fs.unlinkSync(tempFilePath)});
+    }).then(()=>{
+        console.log('Changing status of image availability in Firebase');
+        console.log(object.metadata.uid)
+        return admin.database().ref('/live_journeys/' + journey_id).child(photo_uid).child('imageUploaded').set(true)
+        }).then(() => {fs.unlinkSync(tempFilePath)});
 
     // [END thumbnailGeneration]
 

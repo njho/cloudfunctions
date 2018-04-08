@@ -163,15 +163,14 @@ app.post('/locationUpdate', function (req, res) {
     let timestamp = -Date.parse(eventData.timestamp);
     console.log("Negative timestamp for Firebase lookup: " + timestamp);
 
-    admin.database().ref('/live_journeys/' + req.body.location.extras.journey_id).set({
-        [req.body.location.extras.journey_id]: {
-            coordinates: {
-                latitude: eventData.coords.latitude,
-                longitude: eventData.coords.longitude
-            },
-            altitude: eventData.coords.altitude,
-            timestamp: timestamp,
-        }
+    admin.database().ref('/live_journeys/' + req.body.location.extras.journey_id).child(req.body.location.uuid).set({
+        coordinates: {
+            latitude: eventData.coords.latitude,
+            longitude: eventData.coords.longitude
+        },
+        altitude: eventData.coords.altitude,
+        timestamp: timestamp,
+        imageUploaded: false
     }).then(snapshot => {
         res.status(200).json(eventData.uuid)
     }, function (error) {
