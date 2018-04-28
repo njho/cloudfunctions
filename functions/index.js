@@ -1,7 +1,10 @@
 const functions = require('firebase-functions');
+const cors = require('cors')({origin: true});
 
 //These are required for ImageMagick Manipulation
 const generateThumbnail = require('./functions/generateThumbnail');
+const remoteCapture = require('./functions/remoteCapture');
+
 const path = require('path');
 const os = require('os');
 const fs = require('fs');
@@ -165,14 +168,14 @@ app.post('/locationUpdate', function (req, res) {
 
     admin.database().ref('/live_journeys/' + req.body.location.extras.journey_id).child(req.body.location.uuid).set({
         coordinates: {
-            latitude: eventData.coords.latitude,
-            longitude: eventData.coords.longitude
+            lat: eventData.coords.latitude,
+            lng: eventData.coords.longitude
         },
         altitude: eventData.coords.altitude,
         timestamp: timestamp,
-        imageUploaded: false
+        dataUploaded: false
     }).then(snapshot => {
-        res.status(200).json(eventData.uuid)
+        res.status(200).json({uid: eventData.uuid, timestamp: -timestamp})
     }, function (error) {
         res.status(500).send('this is not okay');
     });
@@ -224,3 +227,10 @@ exports.generateThumbnail = functions.storage.object().onChange(generateThumbnai
 //     });
 // });
 
+
+exports.remoteCapture = functions.https.onRequest((req, res) => {
+
+    cors(req, res, () => {
+        remoteCapture.handler(req, res);
+    })
+});

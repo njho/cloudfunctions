@@ -12,7 +12,7 @@ exports.handler = (event) => {
     const object = event.data; // The Storage object.
     console.log(object);
     const journey_id = object.name.substring(0, object.name.indexOf('/'));
-    const photo_uid = object.name.substring(object.name.indexOf('/')+1, object.name.length-4);
+    const photo_uid = object.name.substring(object.name.indexOf('/') + 1, object.name.length - 4);
     console.log(journey_id);
     console.log(photo_uid);
 
@@ -25,9 +25,9 @@ exports.handler = (event) => {
     // [END eventAttributes]
 
     // [START stopConditions]
-    // Exit if this is triggered on a file that is not an image.
-    if (!contentType.startsWith('image/')) {
-        console.log('This is not an image.');
+    // Exit if this is triggered on a file that is not an image or a video.
+    if (!contentType.startsWith('image/') && !contentType.startsWith('video/')) {
+        console.log('This is not an image or a video.');
         return null;
     }
 
@@ -61,52 +61,63 @@ exports.handler = (event) => {
         contentType: contentType,
     };
 
+    if (contentType.startsWith('image/') ) {
+        return bucket.file(filePath).download({
+            destination: tempFilePath,
+        }).then(() => {
+            console.log('Image downloaded locally to', tempFilePath);
+            console.log(tempFilePath);
 
-    return bucket.file(filePath).download({
-        destination: tempFilePath,
-    }).then(() => {
-        console.log('Image downloaded locally to', tempFilePath);
-        console.log(tempFilePath);
+            // Rotate Image using ImageMagick.
+            return spawn('convert', [tempFilePath, '-auto-orient', tempFilePath]);
+        }).then(() => {
+                console.log('AutoOriented Image created at', tempFilePath);
+                // Uploading the thumbnail.
+                const handledFileName = `journey_${fileName}`;
+                const handledFilePath = path.join(path.dirname(filePath), handledFileName);
 
-        // Rotate Image using ImageMagick.
-        return spawn('convert', [tempFilePath, '-auto-orient', tempFilePath]);
-    }).then(() => {
-        console.log('AutoOriented Image created at', tempFilePath);
-        // Uploading the thumbnail.
-        const handledFileName = `journey_${fileName}`;
-        const handledFilePath = path.join(path.dirname(filePath), handledFileName);
+                return bucket.upload(tempFilePath, {
+                    destination: handledFilePath,
+                    metadata: metadata,
+                });
+                // Once the thumbnail has been uploaded delete the local file to free up disk space.
+            })
+            //     .then(() => {
+            //     console.log('Generating a thumbnail');
+            //     // Generate a thumbnail using ImageMagick.
+            //     return spawn('convert', [tempFilePath, '-thumbnail', '200x200', tempFilePath]);
+            // }).then(() => {
+            //     console.log('Thumbnail created at', tempFilePath);
+            //     // We add a 'thumb_' prefix to thumbnails file name. That's where we'll upload the thumbnail.
+            //     const thumbFileName = `thumb_${fileName}`;
+            //     const thumbFilePath = path.join(path.dirname(filePath), thumbFileName);
+            //     // Uploading the thumbnail.
+            //     return bucket.upload(tempFilePath, {
+            //         destination: thumbFilePath,
+            //         metadata: metadata,
+            //     });
+            //     // Once the thumbnail has been uploaded delete the local file to free up disk space.
+            // })
 
-        return bucket.upload(tempFilePath, {
-            destination: handledFilePath,
-            metadata: metadata,
-        });
-        // Once the thumbnail has been uploaded delete the local file to free up disk space.
-    })
-    //     .then(() => {
-    //     console.log('Generating a thumbnail');
-    //     // Generate a thumbnail using ImageMagick.
-    //     return spawn('convert', [tempFilePath, '-thumbnail', '200x200', tempFilePath]);
-    // }).then(() => {
-    //     console.log('Thumbnail created at', tempFilePath);
-    //     // We add a 'thumb_' prefix to thumbnails file name. That's where we'll upload the thumbnail.
-    //     const thumbFileName = `thumb_${fileName}`;
-    //     const thumbFilePath = path.join(path.dirname(filePath), thumbFileName);
-    //     // Uploading the thumbnail.
-    //     return bucket.upload(tempFilePath, {
-    //         destination: thumbFilePath,
-    //         metadata: metadata,
-    //     });
-    //     // Once the thumbnail has been uploaded delete the local file to free up disk space.
-    // })
-
-        .then(()=> {
-        console.log('All Image Transformations Successful, delete the existing');
-        return bucket.file(filePath).delete()
-    }).then(()=>{
-        console.log('Changing status of image availability in Firebase');
-        console.log(object.metadata.uid)
-        return admin.database().ref('/live_journeys/' + journey_id).child(photo_uid).child('imageUploaded').set(true)
-        }).then(() => {fs.unlinkSync(tempFilePath)});
+            .then(() => {
+                console.log('All Image Transformations Successful, delete the existing');
+                return bucket.file(filePath).delete()
+            }).then(() => {
+                console.log('Changing status of image availability in Firebase');
+                console.log(object.metadata.uid)
+                return admin.database().ref('/live_journeys/' + journey_id).child(photo_uid).update({
+                    dataUploaded: true,
+                    type: 'image'
+                })
+            }).then(() => {
+                fs.unlinkSync(tempFilePath)
+            });
+    } else if (contentType.startsWith('video/')) {
+        return admin.database().ref('/live_journeys/' + journey_id).child(photo_uid).update({
+            dataUploaded: true,
+            type: 'video'
+        })
+    }
 
     // [END thumbnailGeneration]
 
