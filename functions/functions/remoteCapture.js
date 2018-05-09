@@ -26,13 +26,16 @@ exports.handler = (req, res) => {
     ;
 
     let idToken;
+    let fcmToken;
     if (req.headers.authorization && req.headers.authorization.startsWith('Bearer ')) {
         console.log('Found "Authorization" header');
         // Read the ID Token from the Authorization header.
         idToken = req.headers.authorization.split('Bearer ')[1];
+        fcmToken = req.body;
 
         console.log('Found fcmToken');
-        console.log('Fcm Token');
+        console.log(req.body);
+        console.log(fcmToken);
     } else {
         console.log('Found "__session" cookie');
         // Read the ID Token from cookie.
@@ -46,7 +49,8 @@ exports.handler = (req, res) => {
             data: {
                 type: 'CURRENT_LOCATION'
             },
-            token: req.headers.fcmToken
+            token: fcmToken
+
         };
 
         // =============== SEND MESSAGE TO DEVICE =============>

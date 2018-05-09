@@ -4,6 +4,42 @@ const path = require('path');
 const os = require('os');
 const fs = require('fs');
 const admin = require('firebase-admin');
+const ffmpeg = require('fluent-ffmpeg');
+const ffmpeg_static = require('ffmpeg-static');
+
+function promisifyCommand(command) {
+    return new Promise((resolve, reject) => {
+        command
+            .on('end', () => {
+                resolve();
+            })
+            .on('error', (error) => {
+                reject(error);
+            })
+            .run();
+    });
+}
+
+/**
+ * Utility method to generate thumbnail using FFMPEG.
+ */
+function generateThumbnailAsync(tempFilePath, targetTempFilePath) {
+    return new Promise((resolve, reject) => {
+        const command = ffmpeg(tempFilePath)
+            .setFfmpegPath(ffmpeg_static.path)
+            .audioChannels(1)
+            .audioFrequency(16000)
+            .format('flac')
+            .on('error', (err) => {
+                console.log('An error occurred: ' + err.message);
+                reject(err);
+            })
+            .on('end', () => {
+                console.log('Output audio created at', targetTempFilePath);
+            })
+            .save(targetTempFilePath);
+    });
+}
 
 
 exports.handler = (event) => {
@@ -22,6 +58,14 @@ exports.handler = (event) => {
     const contentType = object.contentType; // File content type.
     const resourceState = object.resourceState; // The resourceState is 'exists' or 'not_exists' (for file/folder deletions).
     const metageneration = object.metageneration; // Number of times metadata has been generated. New objects have a value of 1.
+
+    //=================VIDEO THUMBNAIL HANDLING==================>
+    const targetTempFileName = fileName.replace(/\.[^/.]+$/, '') + '_thumbnail.png';
+    console.log('This is the Video Filename: ' + targetTempFileName);
+    const targetTempFilePath = path.join(os.tmpdir(), targetTempFileName);
+    const targetStorageFilePath = path.join(path.dirname(filePath), targetTempFileName);
+
+
     // [END eventAttributes]
 
     // [START stopConditions]
@@ -61,7 +105,7 @@ exports.handler = (event) => {
         contentType: contentType,
     };
 
-    if (contentType.startsWith('image/') ) {
+    if (contentType.startsWith('image/')) {
         return bucket.file(filePath).download({
             destination: tempFilePath,
         }).then(() => {
@@ -113,9 +157,40 @@ exports.handler = (event) => {
                 fs.unlinkSync(tempFilePath)
             });
     } else if (contentType.startsWith('video/')) {
-        return admin.database().ref('/live_journeys/' + journey_id).child(photo_uid).update({
-            dataUploaded: true,
-            type: 'video'
+        return bucket.file(filePath).download({
+            destination: tempFilePath,
+        }).then(() => {
+            console.log('Video downloaded locally to', tempFilePath);
+
+            let command = ffmpeg(tempFilePath)
+                .setFfmpegPath(ffmpeg_static.path)
+                .outputOptions('-vframes 1')
+                .outputOptions('-f image2pipe')
+                .outputOptions('-vcodec png')
+                .output(targetTempFilePath);
+
+            command = promisifyCommand(command);
+
+            return command;
+
+        }).then(() => {
+            console.log('Video thumbnail created at: ', targetTempFilePath);
+            // Uploading the video thumbnail.
+            return bucket.upload(targetTempFilePath, {destination: targetStorageFilePath});
+        }).then(() => {
+            console.log('Output audio uploaded to', targetStorageFilePath);
+
+            // Once the audio has been uploaded delete the local file to free up disk space.
+            fs.unlinkSync(tempFilePath);
+            fs.unlinkSync(targetTempFilePath);
+            console.log('Temporary files removed.', targetTempFilePath);
+
+            return admin.database().ref('/live_journeys/' + journey_id).child(photo_uid).update({
+                dataUploaded: true,
+                type: 'video'
+            });
+        }).then(() => {
+            console.log('Video Tasks Completed!');
         })
     }
 
