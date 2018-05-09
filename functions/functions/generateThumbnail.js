@@ -20,38 +20,37 @@ function promisifyCommand(command) {
     });
 }
 
-/**
- * Utility method to generate thumbnail using FFMPEG.
- */
-function generateThumbnailAsync(tempFilePath, targetTempFilePath) {
-    return new Promise((resolve, reject) => {
-        const command = ffmpeg(tempFilePath)
-            .setFfmpegPath(ffmpeg_static.path)
-            .audioChannels(1)
-            .audioFrequency(16000)
-            .format('flac')
-            .on('error', (err) => {
-                console.log('An error occurred: ' + err.message);
-                reject(err);
-            })
-            .on('end', () => {
-                console.log('Output audio created at', targetTempFilePath);
-            })
-            .save(targetTempFilePath);
-    });
-}
+// /**
+//  * Utility method to generate thumbnail using FFMPEG.
+//  */
+// function generateThumbnailAsync(tempFilePath, targetTempFilePath) {
+//     return new Promise((resolve, reject) => {
+//         const command = ffmpeg(tempFilePath)
+//             .setFfmpegPath(ffmpeg_static.path)
+//             .audioChannels(1)
+//             .audioFrequency(16000)
+//             .format('flac')
+//             .on('error', (err) => {
+//                 console.log('An error occurred: ' + err.message);
+//                 reject(err);
+//             })
+//             .on('end', () => {
+//                 console.log('Output audio created at', targetTempFilePath);
+//             })
+//             .save(targetTempFilePath);
+//     });
+// }
 
 
-exports.handler = (event) => {
+exports.handler = (object) => {
     // [END generateThumbnailTrigger]
     // [START eventAttributes]
-    const object = event.data; // The Storage object.
     console.log(object);
+
+    //========== IMAGE HANDLING PARAMS ==============>
+
     const journey_id = object.name.substring(0, object.name.indexOf('/'));
     const photo_uid = object.name.substring(object.name.indexOf('/') + 1, object.name.length - 4);
-    console.log(journey_id);
-    console.log(photo_uid);
-
 
     const fileBucket = object.bucket; // The Storage bucket that contains the file.
     const filePath = object.name; // File path in the bucket.
@@ -60,10 +59,9 @@ exports.handler = (event) => {
     const metageneration = object.metageneration; // Number of times metadata has been generated. New objects have a value of 1.
 
     //=================VIDEO THUMBNAIL HANDLING==================>
-    const targetTempFileName = fileName.replace(/\.[^/.]+$/, '') + '_thumbnail.png';
-    console.log('This is the Video Filename: ' + targetTempFileName);
-    const targetTempFilePath = path.join(os.tmpdir(), targetTempFileName);
-    const targetStorageFilePath = path.join(path.dirname(filePath), targetTempFileName);
+    var targetTempFileName;
+    var targetTempFilePath;
+    var targetStorageFilePath;
 
 
     // [END eventAttributes]
@@ -78,7 +76,7 @@ exports.handler = (event) => {
     // Get the file name.
     const fileName = path.basename(filePath);
     // Exit if the image is already a thumbnail.
-    if (fileName.startsWith('thumb_') || fileName.startsWith('journey_')) {
+    if (fileName.startsWith('thumb_') || fileName.startsWith('journey_')|| fileName.endsWith('_thumbnail')) {
         console.log('Image has already been handled: ');
         return null;
     }
@@ -106,6 +104,10 @@ exports.handler = (event) => {
     };
 
     if (contentType.startsWith('image/')) {
+
+
+        console.log(journey_id);
+        console.log(photo_uid);
         return bucket.file(filePath).download({
             destination: tempFilePath,
         }).then(() => {
@@ -157,6 +159,12 @@ exports.handler = (event) => {
                 fs.unlinkSync(tempFilePath)
             });
     } else if (contentType.startsWith('video/')) {
+
+        targetTempFileName = fileName.replace(/\.[^/.]+$/, '') + '_thumbnail.png';
+        console.log('This is the Video Filename: ' + targetTempFileName);
+        targetTempFilePath = path.join(os.tmpdir(), targetTempFileName);
+        targetStorageFilePath = path.join(path.dirname(filePath), targetTempFileName);
+
         return bucket.file(filePath).download({
             destination: tempFilePath,
         }).then(() => {

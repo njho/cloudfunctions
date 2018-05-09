@@ -2,363 +2,626 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7993c9b-c520-4c7d-9b7e-83f2b647c540" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@types/sha1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@types/sha1/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@types/sha1/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@types/sha1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/charenc/LICENSE.mkd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/charenc/README.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/charenc/charenc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/charenc/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/crypt/LICENSE.mkd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/crypt/README.mkd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/crypt/crypt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/crypt/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/.github/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/.github/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/sha1/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/sha1/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/sha1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/sha1/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/sha1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/sha1/sha1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/sha1/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/index.node.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/index.node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/index.node.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/DataSnapshot.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/DataSnapshot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/DataSnapshot.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/Database.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/Database.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/Database.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/Query.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/Query.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/Query.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/Reference.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/Reference.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/Reference.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/TransactionResult.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/TransactionResult.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/TransactionResult.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/internal.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/internal.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/onDisconnect.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/onDisconnect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/onDisconnect.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/test_access.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/test_access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/api/test_access.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/AuthTokenProvider.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/AuthTokenProvider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/AuthTokenProvider.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/CompoundWrite.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/CompoundWrite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/CompoundWrite.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/PersistentConnection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/PersistentConnection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/PersistentConnection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/ReadonlyRestClient.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/ReadonlyRestClient.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/ReadonlyRestClient.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/Repo.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/Repo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/Repo.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/RepoInfo.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/RepoInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/RepoInfo.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/RepoManager.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/RepoManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/RepoManager.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/Repo_transaction.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/Repo_transaction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/Repo_transaction.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/ServerActions.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/ServerActions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/ServerActions.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SnapshotHolder.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SnapshotHolder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SnapshotHolder.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SparseSnapshotTree.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SparseSnapshotTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SparseSnapshotTree.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SyncPoint.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SyncPoint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SyncPoint.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SyncTree.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SyncTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/SyncTree.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/WriteTree.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/WriteTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/WriteTree.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/AckUserWrite.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/AckUserWrite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/AckUserWrite.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/ListenComplete.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/ListenComplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/ListenComplete.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/Merge.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/Merge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/Merge.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/Operation.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/Operation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/Operation.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/Overwrite.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/Overwrite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/operation/Overwrite.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/ChildrenNode.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/ChildrenNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/ChildrenNode.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/IndexMap.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/IndexMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/IndexMap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/LeafNode.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/LeafNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/LeafNode.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/Node.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/Node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/Node.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/childSet.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/childSet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/childSet.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/comparators.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/comparators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/comparators.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/Index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/Index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/Index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/KeyIndex.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/KeyIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/KeyIndex.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/PathIndex.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/PathIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/PathIndex.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/PriorityIndex.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/PriorityIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/PriorityIndex.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/ValueIndex.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/ValueIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/indexes/ValueIndex.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/nodeFromJSON.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/nodeFromJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/nodeFromJSON.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/snap.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/snap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/snap/snap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsCollection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsCollection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsCollection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsListener.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsListener.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsListener.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsManager.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsManager.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsReporter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/stats/StatsReporter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/storage/DOMStorageWrapper.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/storage/DOMStorageWrapper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/storage/DOMStorageWrapper.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/storage/MemoryStorage.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/storage/MemoryStorage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/storage/MemoryStorage.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/storage/storage.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/storage/storage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/storage/storage.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/CountedSet.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/CountedSet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/CountedSet.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/EventEmitter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/EventEmitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/EventEmitter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/ImmutableTree.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/ImmutableTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/ImmutableTree.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/NextPushId.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/NextPushId.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/NextPushId.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/OnlineMonitor.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/OnlineMonitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/OnlineMonitor.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/Path.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/Path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/Path.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/ServerValues.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/ServerValues.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/ServerValues.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/SortedMap.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/SortedMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/SortedMap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/Tree.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/Tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/Tree.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/VisibilityMonitor.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/VisibilityMonitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/VisibilityMonitor.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/libs/parser.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/libs/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/libs/parser.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/util.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/util.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/validation.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/util/validation.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/CacheNode.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/CacheNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/CacheNode.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/Change.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/Change.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/Change.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/ChildChangeAccumulator.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/ChildChangeAccumulator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/ChildChangeAccumulator.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/CompleteChildSource.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/CompleteChildSource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/CompleteChildSource.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/Event.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/Event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/Event.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/EventGenerator.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/EventGenerator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/EventGenerator.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/EventQueue.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/EventQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/EventQueue.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/EventRegistration.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/EventRegistration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/EventRegistration.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/QueryParams.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/QueryParams.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/QueryParams.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/View.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/View.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/View.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/ViewCache.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/ViewCache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/ViewCache.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/ViewProcessor.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/ViewProcessor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/ViewProcessor.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/IndexedFilter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/IndexedFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/IndexedFilter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/LimitedFilter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/LimitedFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/LimitedFilter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/NodeFilter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/NodeFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/NodeFilter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/RangedFilter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/RangedFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/core/view/filter/RangedFilter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/nodePatches.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/nodePatches.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/nodePatches.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/BrowserPollConnection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/BrowserPollConnection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/BrowserPollConnection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/Connection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/Connection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/Connection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/Constants.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/Constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/Constants.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/Transport.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/Transport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/Transport.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/TransportManager.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/TransportManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/TransportManager.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/WebSocketConnection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/WebSocketConnection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/WebSocketConnection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/polling/PacketReceiver.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/polling/PacketReceiver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/cjs/src/realtime/polling/PacketReceiver.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/index.node.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/index.node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/index.node.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/DataSnapshot.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/DataSnapshot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/DataSnapshot.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/Database.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/Database.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/Database.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/Query.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/Query.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/Query.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/Reference.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/Reference.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/Reference.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/TransactionResult.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/TransactionResult.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/TransactionResult.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/internal.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/internal.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/onDisconnect.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/onDisconnect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/onDisconnect.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/test_access.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/test_access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/api/test_access.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/AuthTokenProvider.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/AuthTokenProvider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/AuthTokenProvider.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/CompoundWrite.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/CompoundWrite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/CompoundWrite.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/PersistentConnection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/PersistentConnection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/PersistentConnection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/ReadonlyRestClient.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/ReadonlyRestClient.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/ReadonlyRestClient.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/Repo.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/Repo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/Repo.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/RepoInfo.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/RepoInfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/RepoInfo.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/RepoManager.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/RepoManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/RepoManager.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/Repo_transaction.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/Repo_transaction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/Repo_transaction.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/ServerActions.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/ServerActions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/ServerActions.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SnapshotHolder.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SnapshotHolder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SnapshotHolder.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SparseSnapshotTree.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SparseSnapshotTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SparseSnapshotTree.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SyncPoint.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SyncPoint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SyncPoint.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SyncTree.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SyncTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/SyncTree.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/WriteTree.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/WriteTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/WriteTree.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/AckUserWrite.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/AckUserWrite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/AckUserWrite.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/ListenComplete.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/ListenComplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/ListenComplete.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/Merge.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/Merge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/Merge.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/Operation.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/Operation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/Operation.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/Overwrite.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/Overwrite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/operation/Overwrite.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/ChildrenNode.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/ChildrenNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/ChildrenNode.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/IndexMap.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/IndexMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/IndexMap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/LeafNode.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/LeafNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/LeafNode.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/Node.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/Node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/Node.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/childSet.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/childSet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/childSet.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/comparators.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/comparators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/comparators.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/Index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/Index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/Index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/KeyIndex.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/KeyIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/KeyIndex.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/PathIndex.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/PathIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/PathIndex.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/PriorityIndex.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/PriorityIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/PriorityIndex.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/ValueIndex.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/ValueIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/indexes/ValueIndex.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/nodeFromJSON.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/nodeFromJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/nodeFromJSON.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/snap.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/snap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/snap/snap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsCollection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsCollection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsCollection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsListener.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsListener.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsListener.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsManager.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsManager.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsReporter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/stats/StatsReporter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/storage/DOMStorageWrapper.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/storage/DOMStorageWrapper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/storage/DOMStorageWrapper.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/storage/MemoryStorage.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/storage/MemoryStorage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/storage/MemoryStorage.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/storage/storage.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/storage/storage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/storage/storage.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/CountedSet.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/CountedSet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/CountedSet.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/EventEmitter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/EventEmitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/EventEmitter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/ImmutableTree.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/ImmutableTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/ImmutableTree.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/NextPushId.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/NextPushId.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/NextPushId.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/OnlineMonitor.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/OnlineMonitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/OnlineMonitor.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/Path.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/Path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/Path.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/ServerValues.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/ServerValues.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/ServerValues.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/SortedMap.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/SortedMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/SortedMap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/Tree.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/Tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/Tree.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/VisibilityMonitor.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/VisibilityMonitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/VisibilityMonitor.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/libs/parser.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/libs/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/libs/parser.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/util.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/util.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/validation.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/util/validation.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/CacheNode.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/CacheNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/CacheNode.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/Change.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/Change.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/Change.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/ChildChangeAccumulator.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/ChildChangeAccumulator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/ChildChangeAccumulator.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/CompleteChildSource.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/CompleteChildSource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/CompleteChildSource.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/Event.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/Event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/Event.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/EventGenerator.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/EventGenerator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/EventGenerator.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/EventQueue.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/EventQueue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/EventQueue.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/EventRegistration.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/EventRegistration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/EventRegistration.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/QueryParams.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/QueryParams.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/QueryParams.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/View.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/View.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/View.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/ViewCache.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/ViewCache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/ViewCache.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/ViewProcessor.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/ViewProcessor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/ViewProcessor.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/IndexedFilter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/IndexedFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/IndexedFilter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/LimitedFilter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/LimitedFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/LimitedFilter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/NodeFilter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/NodeFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/NodeFilter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/RangedFilter.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/RangedFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/core/view/filter/RangedFilter.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/nodePatches.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/nodePatches.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/nodePatches.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/BrowserPollConnection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/BrowserPollConnection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/BrowserPollConnection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/Connection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/Connection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/Connection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/Constants.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/Constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/Constants.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/Transport.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/Transport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/Transport.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/TransportManager.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/TransportManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/TransportManager.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/WebSocketConnection.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/WebSocketConnection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/WebSocketConnection.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/polling/PacketReceiver.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/polling/PacketReceiver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/dist/esm/src/realtime/polling/PacketReceiver.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/functions/generateThumbnail.js" afterPath="$PROJECT_DIR$/functions/functions/generateThumbnail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/functions/remoteCapture.js" afterPath="$PROJECT_DIR$/functions/functions/remoteCapture.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/body-parser/README.md" afterPath="$PROJECT_DIR$/functions/node_modules/@types/body-parser/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/body-parser/index.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/body-parser/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/body-parser/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/@types/body-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/LICENSE" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/README.md" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/add.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/add.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/after.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/after.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/ary.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/ary.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/assign.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/assign.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/assignIn.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/assignIn.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/assignInWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/assignInWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/assignWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/assignWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/at.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/at.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/attempt.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/attempt.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/before.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/before.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/bind.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/bind.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/bindAll.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/bindAll.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/bindKey.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/bindKey.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/camelCase.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/camelCase.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/capitalize.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/capitalize.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/castArray.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/castArray.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/ceil.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/ceil.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/chain.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/chain.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/chunk.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/chunk.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/clamp.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/clamp.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/clone.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/clone.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/cloneDeep.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/cloneDeep.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/cloneDeepWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/cloneDeepWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/cloneWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/cloneWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/compact.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/compact.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/concat.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/concat.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/cond.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/cond.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/constant.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/constant.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/countBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/countBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/create.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/create.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/curry.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/curry.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/curryRight.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/curryRight.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/debounce.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/debounce.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/deburr.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/deburr.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/defaults.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/defaults.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/defaultsDeep.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/defaultsDeep.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/defer.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/defer.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/delay.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/delay.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/difference.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/difference.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/differenceBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/differenceBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/differenceWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/differenceWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/divide.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/divide.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/drop.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/drop.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/dropRight.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/dropRight.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/dropRightWhile.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/dropRightWhile.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/dropWhile.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/dropWhile.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/each.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/each.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/eachRight.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/eachRight.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/endsWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/endsWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/entries.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/entries.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/entriesIn.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/entriesIn.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/eq.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/eq.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/escape.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/escape.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/escapeRegExp.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/escapeRegExp.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/every.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/every.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/extend.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/extend.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/extendWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/extendWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/fill.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/fill.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/filter.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/filter.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/find.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/find.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/findIndex.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/findIndex.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/findKey.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/findKey.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/findLast.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/findLast.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/findLastIndex.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/findLastIndex.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/findLastKey.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/findLastKey.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/first.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/first.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flatMap.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flatMap.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flatMapDeep.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flatMapDeep.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flatMapDepth.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flatMapDepth.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flatten.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flatten.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flattenDeep.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flattenDeep.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flattenDepth.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flattenDepth.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flip.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flip.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/floor.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/floor.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flow.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flow.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flowRight.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/flowRight.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forEach.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forEach.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forEachRight.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forEachRight.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forIn.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forIn.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forInRight.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forInRight.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forOwn.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forOwn.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forOwnRight.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/forOwnRight.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/fromPairs.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/fromPairs.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/functions.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/functions.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/functionsIn.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/functionsIn.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/get.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/get.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/groupBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/groupBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/gt.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/gt.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/gte.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/gte.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/has.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/has.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/hasIn.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/hasIn.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/head.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/head.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/identity.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/identity.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/inRange.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/inRange.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/includes.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/includes.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/index.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/indexOf.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/indexOf.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/initial.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/initial.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/intersection.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/intersection.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/intersectionBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/intersectionBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/intersectionWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/intersectionWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/invert.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/invert.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/invertBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/invertBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/invoke.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/invoke.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/invokeMap.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/invokeMap.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isArguments.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isArguments.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isArray.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isArray.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isArrayBuffer.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isArrayBuffer.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isArrayLike.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isArrayLike.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isArrayLikeObject.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isArrayLikeObject.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isBoolean.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isBoolean.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isBuffer.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isBuffer.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isDate.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isDate.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isElement.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isElement.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isEmpty.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isEmpty.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isEqual.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isEqual.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isEqualWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isEqualWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isError.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isError.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isFinite.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isFinite.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isFunction.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isFunction.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isInteger.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isInteger.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isLength.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isLength.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isMap.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isMap.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isMatch.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isMatch.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isMatchWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isMatchWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isNaN.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isNaN.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isNative.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isNative.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isNil.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isNil.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isNull.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isNull.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isNumber.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isNumber.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isObject.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isObject.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isObjectLike.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isObjectLike.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isPlainObject.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isPlainObject.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isRegExp.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isRegExp.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isSafeInteger.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isSafeInteger.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isSet.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isSet.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isString.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isString.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isSymbol.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isSymbol.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isTypedArray.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isTypedArray.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isUndefined.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isUndefined.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isWeakMap.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isWeakMap.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isWeakSet.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/isWeakSet.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/iteratee.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/iteratee.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/join.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/join.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/kebabCase.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/kebabCase.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/keyBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/keyBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/keys.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/keys.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/keysIn.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/keysIn.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/last.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/last.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/lastIndexOf.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/lastIndexOf.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/lowerCase.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/lowerCase.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/lowerFirst.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/lowerFirst.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/lt.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/lt.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/lte.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/lte.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/map.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/map.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/mapKeys.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/mapKeys.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/mapValues.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/mapValues.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/matches.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/matches.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/matchesProperty.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/matchesProperty.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/max.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/max.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/maxBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/maxBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/mean.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/mean.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/meanBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/meanBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/memoize.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/memoize.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/merge.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/merge.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/mergeWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/mergeWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/method.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/method.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/methodOf.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/methodOf.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/min.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/min.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/minBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/minBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/mixin.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/mixin.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/negate.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/negate.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/noConflict.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/noConflict.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/noop.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/noop.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/now.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/now.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/nth.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/nth.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/nthArg.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/nthArg.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/omit.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/omit.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/omitBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/omitBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/once.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/once.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/orderBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/orderBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/over.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/over.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/overArgs.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/overArgs.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/overEvery.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/overEvery.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/overSome.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/overSome.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pad.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pad.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/padEnd.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/padEnd.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/padStart.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/padStart.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/parseInt.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/parseInt.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/partial.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/partial.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/partialRight.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/partialRight.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/partition.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/partition.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pick.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pick.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pickBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pickBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/property.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/property.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/propertyOf.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/propertyOf.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pull.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pull.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pullAll.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pullAll.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pullAllBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pullAllBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pullAllWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pullAllWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pullAt.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/pullAt.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/random.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/random.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/range.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/range.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/rangeRight.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/rangeRight.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/rearg.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/rearg.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/reduce.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/reduce.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/reduceRight.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/reduceRight.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/reject.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/reject.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/remove.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/remove.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/repeat.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/repeat.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/replace.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/replace.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/rest.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/rest.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/result.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/result.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/reverse.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/reverse.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/round.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/round.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/runInContext.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/runInContext.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sample.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sample.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sampleSize.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sampleSize.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/set.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/set.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/setWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/setWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/shuffle.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/shuffle.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/size.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/size.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/slice.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/slice.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/snakeCase.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/snakeCase.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/some.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/some.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedIndex.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedIndex.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedIndexBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedIndexBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedIndexOf.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedIndexOf.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedLastIndex.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedLastIndex.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedLastIndexBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedLastIndexBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedLastIndexOf.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedLastIndexOf.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedUniq.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedUniq.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedUniqBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sortedUniqBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/split.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/split.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/spread.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/spread.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/startCase.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/startCase.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/startsWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/startsWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/subtract.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/subtract.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sum.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sum.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sumBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/sumBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/tail.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/tail.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/take.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/take.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/takeRight.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/takeRight.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/takeRightWhile.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/takeRightWhile.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/takeWhile.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/takeWhile.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/tap.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/tap.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/template.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/template.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/throttle.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/throttle.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/thru.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/thru.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/times.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/times.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toArray.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toArray.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toFinite.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toFinite.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toInteger.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toInteger.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toLength.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toLength.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toLower.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toLower.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toNumber.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toNumber.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toPairs.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toPairs.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toPairsIn.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toPairsIn.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toPath.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toPath.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toPlainObject.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toPlainObject.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toSafeInteger.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toSafeInteger.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toString.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toString.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toUpper.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/toUpper.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/transform.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/transform.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/trim.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/trim.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/trimEnd.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/trimEnd.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/trimStart.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/trimStart.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/truncate.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/truncate.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unary.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unary.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unescape.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unescape.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/union.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/union.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unionBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unionBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unionWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unionWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/uniq.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/uniq.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/uniqBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/uniqBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/uniqWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/uniqWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/uniqueId.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/uniqueId.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unset.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unset.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unzip.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unzip.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unzipWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/unzipWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/update.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/update.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/updateWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/updateWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/upperCase.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/upperCase.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/upperFirst.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/upperFirst.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/values.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/values.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/valuesIn.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/valuesIn.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/without.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/without.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/words.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/words.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/wrap.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/wrap.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/xor.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/xor.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/xorBy.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/xorBy.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/xorWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/xorWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/zip.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/zip.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/zipObject.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/zipObject.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/zipObjectDeep.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/zipObjectDeep.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/lodash/zipWith.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/lodash/zipWith.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/serve-static/README.md" afterPath="$PROJECT_DIR$/functions/node_modules/@types/serve-static/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/serve-static/index.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/serve-static/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/serve-static/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/@types/serve-static/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/.npmignore" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/README.md" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/changelog.txt" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/changelog.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/apps.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/apps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/cloud-functions.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/cloud-functions.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/cloud-functions.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/cloud-functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/config.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/config.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/config.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/encoder.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/encoder.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/index.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/analytics.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/analytics.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/analytics.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/analytics.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/auth.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/auth.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/auth.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/auth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/crashlytics.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/crashlytics.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/crashlytics.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/crashlytics.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/database.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/database.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/database.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/database.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/firestore.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/firestore.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/firestore.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/firestore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/pubsub.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/pubsub.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/pubsub.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/pubsub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/storage.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/storage.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/storage.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/storage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/utils.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/utils.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/index.js" afterPath="$PROJECT_DIR$/functions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/cjs/index.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/cjs/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/cjs/index.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/cjs/index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/cjs/src/firebaseApp.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/cjs/src/firebaseApp.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/cjs/src/firebaseApp.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/cjs/src/firebaseApp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/cjs/src/firebaseApp.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/cjs/src/firebaseApp.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/esm/index.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/esm/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/esm/index.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/esm/index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/esm/src/firebaseApp.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/esm/src/firebaseApp.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/esm/src/firebaseApp.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/esm/src/firebaseApp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/esm/src/firebaseApp.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/app/dist/esm/src/firebaseApp.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/app/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/app/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/database/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/database/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/index.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/index.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/index.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/index.node.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/index.node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/index.node.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/index.node.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/crypt.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/crypt.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/crypt.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/crypt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/crypt.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/crypt.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/deferred.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/deferred.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/deferred.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/deferred.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/deferred.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/sha1.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/sha1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/sha1.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/sha1.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/subscribe.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/subscribe.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/subscribe.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/src/subscribe.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/test/deepCopy.test.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/test/deepCopy.test.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/test/errors.test.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/test/errors.test.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/test/subscribe.test.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/test/subscribe.test.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/test/subscribe.test.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/cjs/test/subscribe.test.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/index.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/index.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/index.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/crypt.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/crypt.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/crypt.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/crypt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/crypt.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/crypt.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/deferred.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/deferred.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/deferred.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/deferred.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/deferred.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/sha1.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/sha1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/sha1.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/sha1.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/subscribe.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/subscribe.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/subscribe.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/src/subscribe.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/test/deepCopy.test.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/test/deepCopy.test.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/test/errors.test.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/test/errors.test.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/test/subscribe.test.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/test/subscribe.test.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/test/subscribe.test.js.map" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/dist/esm/test/subscribe.test.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/gulpfile.js" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/index.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/index.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/src/crypt.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/src/crypt.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/src/deferred.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/src/deferred.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@firebase/util/src/subscribe.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@firebase/util/src/subscribe.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/CONTRIBUTORS" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/CONTRIBUTORS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/README.md" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/convert.js" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/convert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/document.js" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/document.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/field-value.js" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/field-value.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/index.js" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/order.js" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/order.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/path.js" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/path.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/reference.js" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/reference.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/transaction.js" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/transaction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/validate.js" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/watch.js" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/watch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/write-batch.js" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/src/write-batch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/types/firestore.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/types/firestore.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/google-cloud__storage/LICENSE" afterPath="$PROJECT_DIR$/functions/node_modules/@types/google-cloud__storage/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/google-cloud__storage/README.md" afterPath="$PROJECT_DIR$/functions/node_modules/@types/google-cloud__storage/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/google-cloud__storage/index.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/google-cloud__storage/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/google-cloud__storage/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/@types/google-cloud__storage/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/jsonwebtoken/README.md" afterPath="$PROJECT_DIR$/functions/node_modules/@types/jsonwebtoken/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/jsonwebtoken/index.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/@types/jsonwebtoken/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/@types/jsonwebtoken/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/@types/jsonwebtoken/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/auth/auth-api-request.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/auth/auth-api-request.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/auth/auth.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/auth/auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/auth/credential.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/auth/credential.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/auth/token-generator.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/auth/token-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/auth/user-record.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/auth/user-record.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/database/database.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/database/database.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/default-namespace.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/default-namespace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/firebase-app.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/firebase-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/firebase-namespace.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/firebase-namespace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/firebase-service.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/firebase-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/firestore/firestore.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/firestore/firestore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/index.d.ts" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/index.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/messaging/messaging-api-request.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/messaging/messaging-api-request.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/messaging/messaging.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/messaging/messaging.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/storage/storage.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/storage/storage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/utils/api-request.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/utils/api-request.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/utils/deep-copy.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/utils/deep-copy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/utils/error.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/utils/error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/utils/index.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/utils/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/utils/validator.js" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/utils/validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-admin/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-admin/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/firebase-functions/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/firebase-functions/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/http-parser-js/http-parser.js" afterPath="$PROJECT_DIR$/functions/node_modules/http-parser-js/http-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/node_modules/http-parser-js/package.json" afterPath="$PROJECT_DIR$/functions/node_modules/http-parser-js/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/package-lock.json" afterPath="$PROJECT_DIR$/functions/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/package.json" afterPath="$PROJECT_DIR$/functions/package.json" />
     </list>
@@ -380,8 +643,28 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="195" column="68" lean-forward="false" selection-start-line="195" selection-start-column="68" selection-end-line="195" selection-end-column="68" />
+            <state relative-caret-position="128">
+              <caret line="195" column="108" lean-forward="false" selection-start-line="195" selection-start-column="108" selection-end-line="195" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".firebaserc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.firebaserc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sdfsaf.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/sdfsaf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -390,8 +673,8 @@
       <file leaf-file-name="generateThumbnail.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/functions/generateThumbnail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="192" column="50" lean-forward="false" selection-start-line="192" selection-start-column="50" selection-end-line="192" selection-end-column="50" />
+            <state relative-caret-position="367">
+              <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -401,14 +684,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>return promise</find>
-      <find>path</find>
-      <find>spawn</find>
-      <find>filename =</find>
-      <find>storage</find>
-      <find>bucket =</find>
-      <find>this is a deletion event</find>
-      <find>filename</find>
       <find>graphql</find>
       <find>google-cloud/storage</find>
       <find>test_journ</find>
@@ -425,12 +700,20 @@
       <find>.handler</find>
       <find>entity</find>
       <find>eve</find>
-      <find>event</find>
       <find>__session</find>
       <find>cors</find>
       <find>video`</find>
       <find>dataUploaded:</find>
       <find>tempfile</find>
+      <find>initializeApp</find>
+      <find>onchange</find>
+      <find>cosole</find>
+      <find>reencode</find>
+      <find>async</find>
+      <find>object</find>
+      <find>event</find>
+      <find>this is the video</find>
+      <find>This is the video</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -447,8 +730,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/functions/package.json" />
         <option value="$PROJECT_DIR$/functions/sdfsaf.js" />
-        <option value="$PROJECT_DIR$/functions/index.js" />
         <option value="$PROJECT_DIR$/functions/functions/remoteCapture.js" />
+        <option value="$PROJECT_DIR$/.firebaserc" />
+        <option value="$PROJECT_DIR$/functions/index.js" />
+        <option value="$PROJECT_DIR$/firebase-debug.log" />
         <option value="$PROJECT_DIR$/functions/functions/generateThumbnail.js" />
       </list>
     </option>
@@ -497,6 +782,11 @@
             <path>
               <item name="journey-cloud-functions" type="b2602c69:ProjectViewProjectNode" />
               <item name="journey-cloud-functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="journey-cloud-functions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="journey-cloud-functions" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -595,32 +885,33 @@
       <workItem from="1524849030875" duration="3414000" />
       <workItem from="1524857203210" duration="134000" />
       <workItem from="1524877401193" duration="1253000" />
-      <workItem from="1525841101125" duration="1198000" />
+      <workItem from="1525841101125" duration="4716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97608000" />
+    <option name="totallyTimeSpent" value="101126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24806201" sideWeight="0.4916318" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27492878" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33475783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34330484" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24806201" sideWeight="0.5083682" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27492878" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -637,13 +928,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/functions/graphql/data/schema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -783,13 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="410" column="45" lean-forward="false" selection-start-line="410" selection-start-column="45" selection-end-line="410" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/node_modules/express-graphql/dist/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -822,13 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/config.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -909,13 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/sdfsaf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -923,31 +1186,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="900" column="0" lean-forward="false" selection-start-line="900" selection-start-column="0" selection-end-line="900" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.firebaserc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firebase.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -962,14 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="95" column="21" lean-forward="false" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="195" column="68" lean-forward="false" selection-start-line="195" selection-start-column="68" selection-end-line="195" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,10 +1223,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/config.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firebase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="133" column="15" lean-forward="false" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="195" column="108" lean-forward="false" selection-start-line="195" selection-start-column="108" selection-end-line="195" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.firebaserc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/sdfsaf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firebase-debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/functions/generateThumbnail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="192" column="50" lean-forward="false" selection-start-line="192" selection-start-column="50" selection-end-line="192" selection-end-column="50" />
+        <state relative-caret-position="367">
+          <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
           <folding />
         </state>
       </provider>

@@ -193,7 +193,7 @@ exports.graphql = functions.https.onRequest(app);
  * ImageMagick.
  */
 // [START generateThumbnailTrigger]
-exports.generateThumbnail = functions.storage.object().onChange(generateThumbnail.handler);
+exports.generateThumbnail = functions.storage.object().onFinalize((event)=> generateThumbnail.handler(event));
 // [END generateThumbnail]
 
 //===================================END_GENERATE_THUMBNAIL======================================>
