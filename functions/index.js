@@ -4,6 +4,8 @@ const cors = require('cors')({origin: true});
 //These are required for ImageMagick Manipulation
 const generateThumbnail = require('./functions/generateThumbnail');
 const remoteCapture = require('./functions/remoteCapture');
+const stripePurchase = require('./functions/stripePurchase');
+
 
 const path = require('path');
 const os = require('os');
@@ -232,5 +234,11 @@ exports.remoteCapture = functions.https.onRequest((req, res) => {
 
     cors(req, res, () => {
         remoteCapture.handler(req, res);
+    })
+});
+
+exports.stripePurchase = functions.https.onRequest((req, res) => {
+    cors(req, res, () => {
+        stripePurchase.handler(req, res);
     })
 });

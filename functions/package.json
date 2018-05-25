@@ -22,7 +22,8 @@
     "fluent-ffmpeg": "^2.1.2",
     "google-cloud": "^0.57.0",
     "graphql": "^0.11.7",
-    "opentok": "^2.6.0"
+    "opentok": "^2.6.0",
+    "stripe": "^6.0.0"
   },
   "private": true
 }
